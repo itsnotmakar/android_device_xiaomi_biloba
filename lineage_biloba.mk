@@ -19,7 +19,7 @@ TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 2340
 
 # Inherit from merlinx device makefile
-$(call inherit-product, device/xiaomi/merlinx/device.mk)
+$(call inherit-product, device/xiaomi/biloba/device.mk)
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -36,15 +36,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/handheld_system_ext.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := merlinx
-PRODUCT_NAME := lineage_merlinx
+PRODUCT_DEVICE := biloba
+PRODUCT_NAME := lineage_biloba
 PRODUCT_BRAND := Redmi
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 TARGET_VENDOR := xiaomi
-TARGET_VENDOR_PRODUCT_NAME := merlinx
-PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="merlin-user 11 RP1A.200720.011 V12.0.1.0.RJOMIXM release-keys"
+TARGET_VENDOR_PRODUCT_NAME := biloba
+PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="biloba-user 12 SP1A.210812.016 V13.0.4.0.SCUMIXM release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := Redmi/merlin/merlin:11/RP1A.200720.011/V12.0.1.0.RJOMIXM:user/release-keys
+BUILD_FINGERPRINT := Redmi/biloba_global/biloba:12/SP1A.210812.016/V13.0.4.0.SCUMIXM:user/release-keys
