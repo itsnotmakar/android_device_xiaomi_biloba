@@ -1,27 +1,27 @@
 
-The Xiaomi Redmi Note 9 (codenamed _"merlinx"_) is an entry-level smartphone from Xiaomi announced in April 2020.
+# Device Tree for Xiaomi Redmi Note 8 (2021) (biloba)
+## This is a WORK IN PROGRESS. Here be dragons.
 
-## Device specifications
+The Redmi Note 8 (2021) (codenamed "biloba") is a mid-range handheld from Xiaomi.
+It was released in May 2021.
 
-| Device                  | Xiaomi Redmi Note 9                                         |
-| ----------------------- | :---------------------------------------------------------- |
-| SoC                     | MediaTek Helio G85 (12nm)                                   |
-| CPU                     | 2 x 2.0 GHz Cortex-A75 & 6 x 1.8 GHz Cortex-A55             |
-| GPU                     | Mali-G52 MC2                                                |
-| Memory                  | 3GB / 4GB / 6GB                                             |
-| Shipped Android version | 10                                                          |
-| Storage                 | 64GB / 128GB                                                |
-| MicroSD                 | Up to 256 GB                                                |
-| Battery                 | Non-removable Li-Po 5020 mAh                                |
-| Dimensions              | 162.3 x 77.2 x 8.9 mm                                       |
-| Display                 | 2340 x 1080 (19:5:9), 6.53 inch                             |
-| Rear Camera 1           | 48 MP, f/1.8, 26mm (wide), 1/2.0", 0.8µm, PDAF              |
-| Rear Camera 2           | 8 MP, f/2.2, 118˚ (ultrawide), 1/4.0", 1.12µm               |
-| Rear Camera 3           | 2 MP, f/2.4, (macro), AF                                    |
-| Rear Camera 4           | 2 MP, f/2.4, (depth)                                        |
-| Front Camera            | 13 MP, f/2.3, 29mm (standard), 1/3.1", 1.12µm               |
+|                   Basic | Spec Sheet                                                    |
+| ----------------------: | :------------------------------------------------------------ |
+| Chipset                 | Mediatek MT6769Z Helio G85                                    | 
+| CPU                     | Octa-core (2x2.0 GHz Cortex-A75 & 6x1.8 GHz Cortex-A55)       |
+| GPU                     | Mali-G52 MC2                                                  |
+| RAM                     | 3/4 GB                                                        |
+| Wireless                | Dual-band WiFi 802.11a/b/g/n/ac, cellular GSM/HSPA/LTE        |
+| Storage                 | 64/128 GB, eMMC 5.1                                           |
+| Battery                 | Li-Po 4000 mAh, non-removable                                 |
+| Dimensions              | 158.3 x 75.3 x 8.4 mm                                         |
+| Display                 | IPS LCD, 1080 x 2340 pixels, 6.3" (~409 ppi)                  |
+| Rear camera             | Main 48 MP, UW 8 MP, Macro 2 MP, Depth 2 MP                   |
+| Front camera            | 13 MP, No flash                                               |
+| Shipped Android Version | 11 , upgradable to 12 (MIUI)                                  |
 
 
-## Device picture
-
-![Xiaomi Redmi Note 9](https://akm-img-a-in.tosshub.com/indiatoday/images/story/202004/Redmi_Note_9.jpeg)
+![xiaomi-redmi-note8-2021-0](https://user-images.githubusercontent.com/67978777/190860585-55948bbc-5e02-4fb6-ae48-c3cc5c9f71e6.jpg)
+---
+# Known issues
+- wait for test lol
