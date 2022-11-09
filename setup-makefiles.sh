@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=merlinx
+DEVICE=biloba
 VENDOR=xiaomi
 
 # Load extract_utils and do some sanity checks
