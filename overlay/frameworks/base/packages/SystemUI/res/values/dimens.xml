@@ -18,5 +18,5 @@
 -->
 <resources>
     <!-- the padding on the top of the statusbar (usually 0) -->
-    <dimen name="status_bar_padding_top">24.0px</dimen>
+    <dimen name="status_bar_padding_top">18.0px</dimen>
 </resources>
